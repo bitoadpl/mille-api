@@ -2,8 +2,8 @@
 
 Z urządzenia można korzystać przy pomocy trzech interefejsów:
 
-* Pierwszy to lokalne REST API dostępne w sieci LAN, w której operują urządzenia
-* Drugie to REST API + OAUTH chmurowe, dostępne za pośrednictwem Internetu
+* Pierwszy to lokalne REST API + webhooks dostępne w sieci LAN, w której operują urządzenia
+* Drugie to REST API + OAUTH + webhooks chmurowe dostępne za pośrednictwem Internetu
 * Trzecie to interfejs MQTT dostępny w chmurze
 
 ## Local API
@@ -14,10 +14,6 @@ Będąc w tej samej sieci LAN dysponujesz dostępem do lokalnych urządzeń za p
 
 Wyszukujemy urządzeń za pośrednictwem zapytania *_light._tcp*.
 Aktualny port zwracany jest przez MDNS-SD (domyślnie jest to port 80).
-
-Biblioteki dla języków:
-* https://github.com/clue/php-mdns-react
-* https://www.npmjs.com/package/mdns-js
 
 Przykład zapytania:
 
@@ -165,5 +161,21 @@ inny - BŁĄD
 tbd
 ```
 
+### GET /webhook
 
+```
+tbd
+```
+
+### POST /webhook
+
+```
+tbd
+```
+
+### DELETE /webhook
+
+```
+tbd
+```
 
