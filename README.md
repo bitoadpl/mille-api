@@ -1,4 +1,4 @@
-# API
+# Mille API
 
 Z urządzenia można korzystać przy pomocy dwóch interefejsów. Pierwszy to lokalne API dostępne w sieci LAN, w której operują urządzenia. Drugie to API chmurowe, dostępne za pośrednictwem Internetu.
 
