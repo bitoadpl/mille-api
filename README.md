@@ -3,7 +3,7 @@
 Z urządzenia można korzystać przy pomocy trzech interefejsów:
 
 * Pierwszy to lokalne REST API + webhooks dostępne w sieci LAN, w której operują urządzenia
-* Drugie to REST API + OAUTH + webhooks chmurowe dostępne za pośrednictwem Internetu
+* Drugie to publiczne REST API + OAUTH + webhooks chmurowe dostępne za pośrednictwem Internetu
 * Trzecie to interfejs MQTT dostępny w chmurze
 
 ## Local API
@@ -216,3 +216,10 @@ Kody HTTP:
 inny - BŁĄD
 ```
 
+## Public API
+
+Jeżeli chcesz skorzystać z publicznego API prosimy o kontakt services@bitoad.com
+
+## Public MQTT Access
+
+Jeżeli chcesz skorzystać z dostępu za pośrednictwem MQTT prosimy o kontakt services@bitoad.com
