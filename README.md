@@ -1,5 +1,7 @@
 # API
 
+Z urządzenia można korzystać przy pomocy dwóch interefejsów. Pierwszy to lokalne API dostępne w sieci LAN, w której operują urządzenia. Drugie to API chmurowe, dostępne za pośrednictwem Internetu.
+
 ## Local API
 
 Będąc w tej samej sieci LAN dysponujesz dostępem do lokalnych urządzeń za pośrednictwem lokalnego API. Urządzenia należy wykryć za pośrednictwem protokołu MDNS-SD.
@@ -41,8 +43,21 @@ DATE: ---Thu 06 Oct 2016---
 12:19:49.452  ...STARTING...
 12:19:49.812  BITOAD_SWITCH_92824._light._tcp.local. can be reached at bitoad_switch_92824.local.:80 (interface 5)
 ```
-
-
 ### Local API
 
-Za pośrednictwem 
+Znając IP i port lokalnego API można za pośrednictwem zapytań REST wywoływać komendy
+
+#### GET /on
+
+#### GET /off
+
+#### GET /toggle
+
+#### GET /state
+
+#### (Deprecated) GET /configure?ssid=xxx&password=xxx
+
+#### POST /configure
+
+
+
