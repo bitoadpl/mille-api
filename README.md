@@ -8,6 +8,10 @@ Będąc w tej samej sieci LAN dysponujesz dostępem do lokalnych urządzeń za p
 
 Wyszukujemy urządzeń za pośrednictwem zapytania *_light._tcp*.
 
+Przykład zapytania:
+
+```dns-sd -B _light._tcp .```
+
 Przykład wyników:
 
 ```BITOAD_SWITCH_9047975
