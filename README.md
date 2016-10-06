@@ -1,6 +1,6 @@
 # Mille API
 
-Z urządzenia można korzystać przy pomocy czterech interefejsów:
+Z urządzenia Mille Switch można korzystać przy pomocy czterech interefejsów:
 
 * lokalne REST API + webhooks dostępne w sieci LAN, w której operują urządzenia
 * publiczne REST API + OAUTH + webhooks chmurowe dostępne za pośrednictwem Internetu
