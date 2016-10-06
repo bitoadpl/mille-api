@@ -190,7 +190,7 @@ Response (dla 200):
 
 #### (planned) POST /webhook/[shortpress|longpress]
 
-Ustalenie adresu dla webhooka po zarejestrowaniu shortpress i longpress. Należy definiować je z ostrożnością i kierować do zasobów, które są w stanie szybko obsłużyć przychodzące zapytanie. Preferowane jest użycie adresów IP zamiast nazw domenowych. Urządzenie natychmiast po wysłaniu stosownego zapytania HTTP przerywa połączenie nie czekając na odpowiedź. Upewnij się, że proces po stronie twojego serwera potrafi obsłużyć taką sytuację (w szczególności nie zostanie zakończony w razie zamknięcia połączenia).
+Ustalenie adresu dla webhooka po zarejestrowaniu shortpress i longpress. Należy definiować je z ostrożnością i kierować do zasobów, które są w stanie szybko obsłużyć przychodzące zapytanie. W razie zwłoki połączenie zostanie przerwane i nie będzie wznawiane. Preferowane jest użycie adresów IP zamiast nazw domenowych. Urządzenie natychmiast po wysłaniu stosownego zapytania HTTP przerywa połączenie nie czekając na odpowiedź. Upewnij się, że proces po stronie twojego serwera potrafi obsłużyć taką sytuację (w szczególności nie zostanie zakończony w razie zamknięcia połączenia).
 
 Request:
 
