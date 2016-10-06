@@ -15,6 +15,10 @@ Będąc w tej samej sieci LAN dysponujesz dostępem do lokalnych urządzeń za p
 Wyszukujemy urządzeń za pośrednictwem zapytania *_light._tcp*.
 Aktualny port zwracany jest przez MDNS-SD (domyślnie jest to port 80).
 
+Biblioteki dla języków:
+* https://github.com/clue/php-mdns-react
+* https://www.npmjs.com/package/mdns-js
+
 Przykład zapytania:
 
 ```
