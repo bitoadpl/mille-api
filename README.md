@@ -1,10 +1,11 @@
 # Mille API
 
-Z urządzenia można korzystać przy pomocy trzech interefejsów:
+Z urządzenia można korzystać przy pomocy czterech interefejsów:
 
-* Pierwszy to lokalne REST API + webhooks dostępne w sieci LAN, w której operują urządzenia
-* Drugie to publiczne REST API + OAUTH + webhooks chmurowe dostępne za pośrednictwem Internetu
-* Trzecie to interfejs MQTT dostępny w chmurze
+* lokalne REST API + webhooks dostępne w sieci LAN, w której operują urządzenia
+* publiczne REST API + OAUTH + webhooks chmurowe dostępne za pośrednictwem Internetu
+* interfejs MQTT dostępny w chmurze
+* interfejs IFTTT
 
 ## Local API
 
@@ -223,3 +224,7 @@ Jeżeli chcesz skorzystać z publicznego API prosimy o kontakt services@bitoad.c
 ## Public MQTT Access
 
 Jeżeli chcesz skorzystać z dostępu za pośrednictwem MQTT prosimy o kontakt services@bitoad.com
+
+## IFTTT
+
+Usługa IFTTT zapewnia komunikację z ponad setką typów urządzeń i usług za pośrednictwem kanału Maker (https://ifttt.com/maker). Jeżeli chcesz skorzystać z dostępu za pośrednictwem IFTTT prosimy o kontakt services@bitoad.com
