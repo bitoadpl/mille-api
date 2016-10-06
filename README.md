@@ -155,27 +155,64 @@ Kody HTTP:
 inny - BŁĄD
 ```
 
-#### POST /config
+#### (planned) POST /config
+
+Przesłanie konfiguracji do połączenia do sieci wifi i chmurowego serwera MQTT.
 
 ```
 tbd
 ```
 
-#### GET /webhook
+#### (planned) GET /webhook/[shortpress|longpress]
+
+Pobranie aktualnie zdefiniowananych adresów dla webhook
+
+Request:
+
+```
+curl http://192.168.1.100:80/webhook/shortpress
+curl http://192.168.1.100:80/webhook/longpress
+```
+
+Kody HTTP:
+
+```
+200 - SUKCES
+404 - Brak zdefiniowanego webhooka
+inny - BŁĄD
+```
+
+Response (dla 200):
+
+```
+"http://somedomain/someaddress"
+```
+
+#### (planned) POST /webhook/[shortpress|longpress]
+
+Ustalenie adresu dla webhooka po zarejestrowaniu shortpress i longpress
+
+Request:
 
 ```
 tbd
 ```
 
-#### POST /webhook
+Kody HTTP:
 
 ```
-tbd
+200 - SUKCES
+inny - BŁĄD
 ```
 
-#### DELETE /webhook
+#### DELETE /webhook/[shortpress|longpress]
+
+Usunięcie zdefiniowanego webhooka
+
+Kody HTTP:
 
 ```
-tbd
+200 - SUKCES
+inny - BŁĄD
 ```
 
