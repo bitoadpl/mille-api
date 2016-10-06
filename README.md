@@ -4,7 +4,7 @@ Z urządzenia można korzystać przy pomocy dwóch interefejsów. Pierwszy to lo
 
 ## Local API
 
-Będąc w tej samej sieci LAN dysponujesz dostępem do lokalnych urządzeń za pośrednictwem lokalnego API. Urządzenia należy wykryć za pośrednictwem protokołu MDNS-SD.
+Będąc w tej samej sieci LAN dysponujesz dostępem do lokalnych urządzeń za pośrednictwem lokalnego API. Urządzenia należy wykryć za pośrednictwem protokołu MDNS-SD lub w wypadku połączenia z urządzeniem w trybie Access Pointa skorzystać z domyślnego adresu 192.168.2.1:80
 
 ### MDNS-SD Search
 
@@ -118,9 +118,28 @@ inny - BŁĄD
 
 Zwracana jest wartośc liczbowa od 0 do 100. Gdzie 0 oznacza lampę zgaszoną a 100 świecącą z pełną mocą.
 
-#### (Deprecated) GET /configure?ssid=xxx&password=xxx
+#### (Deprecated) GET /config?ssid=xxx&password=xxx
+
+Nakazuje urządzeniu przełączyć się do sieci wifi. Po wywołaniu API przestanie być dostępne ze względu na dokonywanie połączenia. W razie sukcesu urządzenie pojawi się w nowej sieci LAN. W razie porażki otworzy własną siec wifi (tryb Access Point) gdzie będzie oczekiwało na połączenia.
+
+Request:
+
+```
+curl http://192.168.1.100:80/config?ssid=xxx&password=xxx
+```
+
+Kody HTTP:
+
+```
+200 - SUKCES
+inny - BŁĄD
+```
 
 #### POST /configure
+
+```
+tbd
+```
 
 
 
