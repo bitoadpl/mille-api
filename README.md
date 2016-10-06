@@ -47,6 +47,22 @@ DATE: ---Thu 06 Oct 2016---
 12:19:49.452  ...STARTING...
 12:19:49.812  BITOAD_SWITCH_92824._light._tcp.local. can be reached at bitoad_switch_92824.local.:80 (interface 5)
 ```
+
+Przykład zapytania:
+
+```
+dns-sd -G v4 BITOAD_SWITCH_92824.local
+```
+
+Przykład wyników
+
+```
+DATE: ---Thu 06 Oct 2016---
+13:00:49.035  ...STARTING...
+Timestamp     A/R Flags if Hostname                               Address                                      TTL
+13:00:49.327  Add     2  5 bitoad_switch_92824.local.             192.168.1.62                                 120
+```
+
 ### Local API
 
 Znając IP i port lokalnego API można za pośrednictwem zapytań REST wywoływać komendy
