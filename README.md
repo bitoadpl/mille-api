@@ -155,7 +155,7 @@ Kody HTTP:
 inny - BŁĄD
 ```
 
-#### POST /configure
+#### POST /config
 
 ```
 tbd
