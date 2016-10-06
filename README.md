@@ -49,11 +49,74 @@ Znając IP i port lokalnego API można za pośrednictwem zapytań REST wywoływa
 
 #### GET /on
 
+Zapala światło (moc=100)
+
+Request:
+
+```
+curl http://192.168.1.100:80/on
+```
+
+Kody HTTP:
+
+```
+200 - SUKCES
+inny - BŁĄD
+```
+
 #### GET /off
+
+Gasi światło (moc=0)
+
+Request:
+
+```
+curl http://192.168.1.100:80/off
+```
+
+Kody HTTP:
+
+```
+200 - SUKCES
+inny - BŁĄD
+```
 
 #### GET /toggle
 
+Naprzemiennie gasi (moc=0) i zapala światło (moc=100).
+Przy stanie przejściowym (moc &gt; 0 i moc &lt; 100) domyślnie gasi.
+
+Request:
+
+```
+curl http://192.168.1.100:80/toggle
+```
+
+Kody HTTP:
+
+```
+200 - SUKCES
+inny - BŁĄD
+```
+
 #### GET /state
+
+Pobiera aktualny stan urządzenia.
+
+Request:
+
+```
+curl http://192.168.1.100:80/state
+```
+
+Kody HTTP:
+
+```
+200 - SUKCES
+inny - BŁĄD
+```
+
+Zwracana jest wartośc liczbowa od 0 do 100. Gdzie 0 oznacza lampę zgaszoną a 100 świecącą z pełną mocą.
 
 #### (Deprecated) GET /configure?ssid=xxx&password=xxx
 
