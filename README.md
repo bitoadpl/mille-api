@@ -226,12 +226,12 @@ inny - BŁĄD
 
 #### (planned) GET /label
 
-Pobranie aktualnie zdefiniowanej lokalnej nazwy urządzenia
+Pobranie aktualnie zdefiniowanej lokalnej nazwy urządzenia.
 
 Request:
 
 ```
-curl -X http://192.168.1.100:80/webhook/label
+curl -X http://192.168.1.100:80/label
 ```
 
 Kody HTTP:
@@ -265,7 +265,7 @@ inny - BŁĄD
 Przywrócenie domyślnej nazwy urządzenia
 
 ```
-curl -X DELETE http://192.168.1.100:80/webhook/label
+curl -X DELETE http://192.168.1.100:80/label
 ```
 
 Kody HTTP:
