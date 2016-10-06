@@ -161,19 +161,19 @@ inny - BŁĄD
 tbd
 ```
 
-### GET /webhook
+#### GET /webhook
 
 ```
 tbd
 ```
 
-### POST /webhook
+#### POST /webhook
 
 ```
 tbd
 ```
 
-### DELETE /webhook
+#### DELETE /webhook
 
 ```
 tbd
