@@ -11,12 +11,14 @@ Aktualny port zwracany jest przez MDNS-SD (domyślnie jest to port 80).
 
 Przykład zapytania:
 
-```dns-sd -B _light._tcp .
+```
+dns-sd -B _light._tcp .
 ```
 
 Przykład wyników:
 
-```Browsing for _light._tcp
+```
+Browsing for _light._tcp
 DATE: ---Thu 06 Oct 2016---
 12:17:18.846  ...STARTING...
 Timestamp     A/R    Flags  if Domain               Service Type         Instance Name
@@ -27,12 +29,14 @@ Timestamp     A/R    Flags  if Domain               Service Type         Instanc
 
 Przykład zapytania:
 
-```dns-sd -L BITOAD_SWITCH_92824 _light._tcp .
+```
+dns-sd -L BITOAD_SWITCH_92824 _light._tcp .
 ```
 
-Przykład wyników
+Przykład wyników:
 
-```Lookup BITOAD_SWITCH_92824._light._tcp.local
+```
+Lookup BITOAD_SWITCH_92824._light._tcp.local
 DATE: ---Thu 06 Oct 2016---
 12:19:49.452  ...STARTING...
 12:19:49.812  BITOAD_SWITCH_92824._light._tcp.local. can be reached at bitoad_switch_92824.local.:80 (interface 5)
