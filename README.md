@@ -7,6 +7,7 @@ Będąc w tej samej sieci LAN dysponujesz dostępem do lokalnych urządzeń za p
 ### MDNS-SD Search
 
 Wyszukujemy urządzeń za pośrednictwem zapytania *_light._tcp*.
+Aktualny port zwracany jest przez MDNS-SD (domyślnie jest to port 80).
 
 Przykład zapytania:
 
@@ -14,14 +15,14 @@ Przykład zapytania:
 
 Przykład wyników:
 
-```BITOAD_SWITCH_9047975
-192.168.1.26:80
-
-BITOAD_SWITCH_92824
-192.168.1.62:80
-
-BITOAD_SWITCH_92917
-192.168.1.56:80 ```
+```Browsing for _light._tcp
+DATE: ---Thu 06 Oct 2016---
+12:17:18.846  ...STARTING...
+Timestamp     A/R    Flags  if Domain               Service Type         Instance Name
+12:17:18.857  Add        3   5 local.               _light._tcp.         BITOAD_SWITCH_9047975
+12:17:18.857  Add        3   5 local.               _light._tcp.         BITOAD_SWITCH_92917
+12:17:18.857  Add        2   5 local.               _light._tcp.         BITOAD_SWITCH_92824
+```
 
 ### Local API
 
