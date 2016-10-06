@@ -219,12 +219,12 @@ inny - BŁĄD
 
 ## Public API
 
-Jeżeli chcesz skorzystać z publicznego API prosimy o kontakt services@bitoad.com
+Jeżeli chcesz skorzystać z publicznego API prosimy o kontakt z services@bitoad.com
 
 ## Public MQTT Access
 
-Jeżeli chcesz skorzystać z dostępu za pośrednictwem MQTT prosimy o kontakt services@bitoad.com
+Jeżeli chcesz skorzystać z dostępu za pośrednictwem MQTT prosimy o kontakt z services@bitoad.com
 
 ## IFTTT
 
-Usługa IFTTT zapewnia komunikację z ponad setką typów urządzeń i usług za pośrednictwem kanału Maker (https://ifttt.com/maker). Jeżeli chcesz skorzystać z dostępu za pośrednictwem IFTTT prosimy o kontakt services@bitoad.com
+Usługa IFTTT zapewnia komunikację z ponad setką typów urządzeń i usług za pośrednictwem kanału Maker (https://ifttt.com/maker). Jeżeli chcesz skorzystać z dostępu za pośrednictwem IFTTT prosimy o kontakt z services@bitoad.com
