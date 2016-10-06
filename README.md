@@ -210,12 +210,72 @@ inny - BŁĄD
 
 Usunięcie zdefiniowanego webhooka
 
+Request:
+
+```
+curl -X DELETE http://192.168.1.100:80/webhook/shortpress
+curl -X DELETE http://192.168.1.100:80/webhook/longpress
+```
+
 Kody HTTP:
 
 ```
 200 - SUKCES
 inny - BŁĄD
 ```
+
+#### (planned) GET /label
+
+Pobranie aktualnie zdefiniowanej lokalnej nazwy urządzenia
+
+Request:
+
+```
+curl -X http://192.168.1.100:80/webhook/label
+```
+
+Kody HTTP:
+
+```
+200 - SUKCES
+inny - BŁĄD
+```
+Zwrócony zostanie string z nazwą
+
+#### (planned) POST /label
+
+Ustalenie nazwy urządzenia. Nazwa powinna być legalną nazwą domenową.
+
+Request:
+
+```
+tbd
+```
+
+Kody HTTP:
+
+```
+200 - SUKCES
+400 - Nieprawidłowa nazwa
+inny - BŁĄD
+```
+
+#### (planned) DELETE /label
+
+Przywrócenie domyślnej nazwy urządzenia
+
+```
+curl -X DELETE http://192.168.1.100:80/webhook/label
+```
+
+Kody HTTP:
+
+```
+200 - SUKCES
+inny - BŁĄD
+```
+
+Zwrócony zostanie string z domyślną nazwą
 
 ## Public API
 
