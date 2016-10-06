@@ -1,6 +1,10 @@
 # Mille API
 
-Z urządzenia można korzystać przy pomocy dwóch interefejsów. Pierwszy to lokalne API dostępne w sieci LAN, w której operują urządzenia. Drugie to API chmurowe, dostępne za pośrednictwem Internetu.
+Z urządzenia można korzystać przy pomocy trzech interefejsów:
+
+* Pierwszy to lokalne REST API dostępne w sieci LAN, w której operują urządzenia
+* Drugie to REST API + OAUTH chmurowe, dostępne za pośrednictwem Internetu
+* Trzecie to interfejs MQTT dostępny w chmurze
 
 ## Local API
 
